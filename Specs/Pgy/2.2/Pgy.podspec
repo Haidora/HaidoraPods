@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Pgy"
-  s.version      = "1.4"
+  s.version      = "2.2"
   s.summary      = "http://www.pgyer.com/sdk."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Haidora/Pgy.git", :tag => "#{s.version}" }
   s.source_files = "Source/PgySDK.framework/Versions/A/Headers/*.h"
   s.preserve_paths = "Source/PgySDK.framework"
-  s.frameworks = "OpenGLES", "CoreMotion"
+  s.frameworks = "OpenGLES", "CoreMotion", "AudioToolbox", "AvFoundation", "SystemConfiguration"
   s.weak_frameworks = "SceneKit"
   s.vendored_frameworks = "Source/PgySDK.framework"
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Pgy/Source"' }
