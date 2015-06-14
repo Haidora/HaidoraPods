@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'HaidoraCommonWrapper' => ['Pod/Assets/*.png']
   # }
-
+  s.deprecated = true
   s.frameworks = 'UIKit', 'Foundation'
 end
