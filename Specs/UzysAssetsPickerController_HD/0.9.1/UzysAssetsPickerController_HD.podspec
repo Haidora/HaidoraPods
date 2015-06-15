@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "UzysAssetsPickerController"
-  s.version      = "0.9.3"
+  s.name         = "UzysAssetsPickerController_HD"
+  s.version      = "0.9.1"
   s.summary      = "Alternative UIImagePickerController , You can take a picture with camera and pick multiple photos and videos."
   s.author       = { "UzysJung" => "uzysjung@gmail.com" }
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license     = { :type => "MIT", :file => "LICENSE" }
   
   s.platform     = :ios , '6.0'
-  s.source       = { :git => "https://github.com/Haidora/UzysAssetsPickerController.git", :tag => "0.9.3" }
+  s.source       = { :git => "https://github.com/Haidora/UzysAssetsPickerController.git", :tag => "0.9.1" }
   s.requires_arc = true
   s.source_files = 'UzysAssetsPickerController/Library'
   s.resources = 'UzysAssetsPickerController/Library/*.xib','UzysAssetsPickerController/Library/UzysAssetPickerController.bundle'
