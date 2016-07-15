@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Haidora/HaidoraQRScanningView.git", :tag => s.version.to_s }
 
   s.source_files = 'Source/**/*.{h,m}'
-  s.dependency "ZXingObjC", "~> 3.0.0"
+  s.dependency "ZXingObjC", "~> 3.1.0"
   s.requires_arc = true
 
 end
